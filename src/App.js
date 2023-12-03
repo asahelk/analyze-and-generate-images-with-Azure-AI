@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import { analyzeImage, isConfigured } from "./azure-image-analysis";
 
 function App() {
-  const key = process.env.REACT_APP_VISION_KEY;
-  const endPoint = process.env.REACT_APP_VISION_ENDPOINT;
-
   const [url, setUrl] = useState("");
   const [analysisImage, setAnalysisImage] = useState("");
   const [loading, setLoading] = useState(false);
