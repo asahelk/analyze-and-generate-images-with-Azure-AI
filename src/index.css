@@ -1,0 +1,18 @@
+label {
+  display: block;
+}
+
+section {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
